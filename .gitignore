@@ -1,0 +1,19 @@
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+
+# Logs / output files
+*.log
+*.pcap
+*.txt
+
+# Secrets
+.env
