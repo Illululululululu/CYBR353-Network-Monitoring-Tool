@@ -11,9 +11,9 @@ venv/
 .env/
 
 # Logs / output files
-*.log
-*.pcap
-*.txt
+# *.log
+# *.pcap
+# *.txt
 
 # Secrets
 .env
