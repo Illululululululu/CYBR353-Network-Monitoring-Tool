@@ -1,0 +1,104 @@
+============================================================
+         NETWORK MONITORING REPORT
+============================================================
+
+  Total packets analysed : 99
+  Normal                 : 62
+  Suspicious             : 37
+
+------------------------------------------------------------
+  SUSPICIOUS SOURCE IPs
+------------------------------------------------------------
+  10.10.48.76
+      → Brute-Force / Repeated Attempts (11x)
+      → Brute-Force / Repeated Attempts (12x)
+      → Brute-Force / Repeated Attempts (13x)
+      → Brute-Force / Repeated Attempts (14x)
+      → Brute-Force / Repeated Attempts (15x)
+      → Brute-Force / Repeated Attempts (16x)
+      → Brute-Force / Repeated Attempts (17x)
+      → Brute-Force / Repeated Attempts (18x)
+      → Brute-Force / Repeated Attempts (19x)
+      → Brute-Force / Repeated Attempts (20x)
+      → Brute-Force / Repeated Attempts (21x)
+  91.108.56.158
+      → Brute-Force / Repeated Attempts (11x)
+      → Brute-Force / Repeated Attempts (12x)
+      → Brute-Force / Repeated Attempts (13x)
+      → Brute-Force / Repeated Attempts (14x)
+      → Brute-Force / Repeated Attempts (15x)
+      → Brute-Force / Repeated Attempts (16x)
+      → Brute-Force / Repeated Attempts (17x)
+      → Brute-Force / Repeated Attempts (18x)
+      → Brute-Force / Repeated Attempts (19x)
+      → Brute-Force / Repeated Attempts (20x)
+      → Brute-Force / Repeated Attempts (21x)
+      → Brute-Force / Repeated Attempts (22x)
+      → Brute-Force / Repeated Attempts (23x)
+      → Brute-Force / Repeated Attempts (24x)
+      → Brute-Force / Repeated Attempts (25x)
+      → Brute-Force / Repeated Attempts (26x)
+      → Brute-Force / Repeated Attempts (27x)
+      → Brute-Force / Repeated Attempts (28x)
+      → Brute-Force / Repeated Attempts (29x)
+
+------------------------------------------------------------
+  TOP DETECTION REASONS
+------------------------------------------------------------
+      8x  Brute-Force / Repeated Attempts (19x)
+      3x  Brute-Force / Repeated Attempts (12x)
+      2x  Brute-Force / Repeated Attempts (11x)
+      2x  Brute-Force / Repeated Attempts (13x)
+      2x  Brute-Force / Repeated Attempts (14x)
+      2x  Brute-Force / Repeated Attempts (15x)
+      2x  Brute-Force / Repeated Attempts (16x)
+      2x  Brute-Force / Repeated Attempts (17x)
+      2x  Brute-Force / Repeated Attempts (18x)
+      2x  Brute-Force / Repeated Attempts (20x)
+
+------------------------------------------------------------
+  SAMPLE SUSPICIOUS PACKETS (up to 10)
+------------------------------------------------------------
+  [1] 2026-04-27T09:06:54.929674Z
+       91.108.56.158 → 10.10.48.76:55809  [TCP]  severity=low
+       Reasons: Brute-Force / Repeated Attempts (11x)
+
+  [2] 2026-04-27T09:06:54.929675Z
+       91.108.56.158 → 10.10.48.76:55809  [TCP]  severity=low
+       Reasons: Brute-Force / Repeated Attempts (12x)
+
+  [3] 2026-04-27T09:06:54.929676Z
+       91.108.56.158 → 10.10.48.76:55809  [TCP]  severity=low
+       Reasons: Brute-Force / Repeated Attempts (13x)
+
+  [4] 2026-04-27T09:06:54.929900Z
+       91.108.56.158 → 10.10.48.76:55809  [TCP]  severity=low
+       Reasons: Brute-Force / Repeated Attempts (14x)
+
+  [5] 2026-04-27T09:06:54.929901Z
+       91.108.56.158 → 10.10.48.76:55809  [TCP]  severity=low
+       Reasons: Brute-Force / Repeated Attempts (15x)
+
+  [6] 2026-04-27T09:06:54.958951Z
+       91.108.56.158 → 10.10.48.76:55809  [TCP]  severity=low
+       Reasons: Brute-Force / Repeated Attempts (16x)
+
+  [7] 2026-04-27T09:06:54.968197Z
+       91.108.56.158 → 10.10.48.76:55809  [TCP]  severity=low
+       Reasons: Brute-Force / Repeated Attempts (17x)
+
+  [8] 2026-04-27T09:06:54.969938Z
+       91.108.56.158 → 10.10.48.76:55809  [TCP]  severity=low
+       Reasons: Brute-Force / Repeated Attempts (18x)
+
+  [9] 2026-04-27T09:06:54.970364Z
+       91.108.56.158 → 10.10.48.76:55809  [TCP]  severity=low
+       Reasons: Brute-Force / Repeated Attempts (19x)
+
+  [10] 2026-04-27T09:06:54.970455Z
+       10.10.48.76 → 91.108.56.158:443  [TCP]  severity=low
+       Reasons: Brute-Force / Repeated Attempts (11x)
+
+============================================================
+  END OF REPORT
+============================================================

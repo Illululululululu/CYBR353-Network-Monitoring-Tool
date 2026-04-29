@@ -36,6 +36,7 @@ def get_fernet(key_path: Path = DEFAULT_KEY_PATH) -> Fernet:
 
 # ── SecureLogger ──────────────────────────────────────────────────────────
 
+
 class SecureLogger:
     """
     Append-only encrypted log writer.
@@ -83,6 +84,7 @@ class SecureLogger:
 
 # ── Decryption ────────────────────────────────────────────────────────────
 
+
 def decrypt_log(
     log_path: str | Path,
     key_path: Path = DEFAULT_KEY_PATH,
@@ -108,4 +110,6 @@ def decrypt_log(
                 entry = json.loads(decrypted.decode("utf-8"))
                 yield entry
             except Exception as exc:
-                print(f"[secure_logger] Warning – could not decrypt line {lineno}: {exc}")
+                print(
+                    f"[secure_logger] Warning – could not decrypt line {lineno}: {exc}"
+                )
